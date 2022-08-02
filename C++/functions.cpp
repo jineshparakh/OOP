@@ -21,7 +21,7 @@ int main() {
 				4. Better memory utilization (Only the functions in use are present in RAM)
 	*/
 	void localFunction(); // Can be only called in main method
-    cout<<"Calling localFunction() from main: "
+    cout<<"Calling localFunction() from main: ";
 	localFunction(); // Function call
 	globalFunction();
 }
